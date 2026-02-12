@@ -96,8 +96,8 @@
         <div class="flex-grow">
           <h2 class="text-2xl font-bold mb-6 text-blue-300 text-left">wscroll Lite</h2>
 
-          <div class="mb-8 text-center bg-slate-950/50 py-4 rounded-2xl border border-slate-800/50">
-      <span class="text-4xl font-black text-white uppercase tracking-widest">Free</span>
+          <div class="mb-8 text-center bg-slate-950 py-4 rounded-2xl border border-slate-800">
+      <span class="text-4xl font-black text-white">FREE</span>
     </div>
 
     <p class="text-slate-300 text-sm mb-10 leading-relaxed text-left font-medium">
