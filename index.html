@@ -3,23 +3,22 @@
   <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  
   <meta name="color-scheme" content="dark">
   
-  <meta name="theme-color" content="#020617" />
-  
-  <title>wscroll | Hands-free Reading</title>
-
   <style>
-  body, html {
-    background-color: #020617 !important;
-    color: white !important;
-    margin: 0;
-  }
-</style>
+    /* Paksa warna latar belakang meskipun Tailwind gagal muat */
+    html, body {
+      background-color: #020617 !important;
+      color: white !important;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Mencegah browser HP memaksa warna terang */
+    :root {
+      color-scheme: dark !important;
+    }
+  </style>
+
+  <title>wscroll | Hands-free Reading</title>
 </head>
-  <body class="bg-slate-950">
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
-</html>
