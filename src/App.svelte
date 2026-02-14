@@ -95,7 +95,7 @@
           <div class="mb-8 text-center bg-slate-950 py-4 rounded-2xl border border-slate-800">
             <span class="text-4xl font-black text-white">FREE</span>
           </div>
-          <p class="text-slate-300 text-sm mb-10 leading-relaxed text-left font-medium">
+          <p class="text-slate-500 text-sm mb-10 leading-relaxed text-left font-medium">
             No installation. Simply drag the button below to your browser's bookmark bar and start scrolling.
           </p>
         </div>
@@ -105,7 +105,7 @@
             href={bookmarkletCode} 
             on:click|preventDefault={() => alert('Drag this button to your Bookmark Bar!')}
             style="touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: default; cursor: grab;"
-            class="block w-full py-4 text-center bg-blue-600 hover:bg-blue-500 rounded-2xl font-black shadow-lg shadow-blue-500/20 active:scale-95 transition-all uppercase tracking-widest text-white"
+            class="block w-full py-4 text-center bg-blue-600 hover:bg-blue-500 rounded-2xl font-black shadow-lg shadow-blue-500/10 active:scale-95 transition-all uppercase tracking-widest text-white"
           >
             wscroll
           </a>
@@ -125,13 +125,13 @@
             <span class="text-4xl font-black text-white">$0.99</span>
             <span class="text-slate-300 text-sm italic">/month</span>
           </div>
-          <p class="text-slate-300 text-sm mb-10 leading-relaxed text-left font-medium">
+          <p class="text-slate-500 text-sm mb-10 leading-relaxed text-left font-medium">
             Hands-free Voice Commands, AI-speed, and standalone PWA experience.
           </p>
         </div>
         <div class="mt-auto">
           <button on:click={installPWA}
-             class="w-full py-4 text-center bg-blue-600 hover:bg-blue-500 rounded-2xl font-black shadow-lg shadow-blue-500/20 active:scale-95 transition-all uppercase tracking-widest text-white">
+             class="w-full py-4 text-center bg-blue-600 hover:bg-blue-500 rounded-2xl font-black shadow-lg shadow-blue-500/10 active:scale-95 transition-all uppercase tracking-widest text-white">
             Subscribe Now
           </button>
           <p class="text-[11px] text-slate-400 mt-4 text-center uppercase tracking-[0.1em] font-bold italic">
