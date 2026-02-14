@@ -123,7 +123,7 @@
           <h2 class="text-2xl font-bold mb-6 text-blue-300 text-left">wscroll Elite</h2>
           <div class="mb-8 text-center bg-slate-950 py-4 rounded-2xl border border-slate-800">
             <span class="text-4xl font-black text-white">$0.99</span>
-            <span class="text-slate-300 text-sm italic">/month</span>
+            <span class="text-slate-400 text-sm italic">/month</span>
           </div>
           <p class="text-slate-500 text-sm mb-10 leading-relaxed text-left font-medium">
             Hands-free Voice Commands, AI-speed, and standalone PWA experience.
